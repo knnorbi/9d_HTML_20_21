@@ -1,0 +1,22 @@
+h1 {
+    color: aquamarine;
+    font-family: fantasy;
+}
+
+.piros {
+    color: red;
+}
+
+.felkover {
+    font-weight: bold;
+    font-family: monospace;
+}
+
+body {
+    color: gray;
+}
+
+
+#cimsor2 {
+    color: yellow;
+}
