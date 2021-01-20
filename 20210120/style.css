@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+    background-image: url('gradienta-LeG68PrXA6Y-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.masfajta {
+    color : whitesmoke;
+    background-color: black;
+    border: solid 2px red;
+    margin: 30px;
+    padding: 50px;
+    /* Zarojelben */
+    opacity: 0.8;
+}
+
+h1 {
+    border-bottom: solid 5px orange;
+    display: inline;
+}
+
+.elso {
+    background-color: antiquewhite;
+    
+}
