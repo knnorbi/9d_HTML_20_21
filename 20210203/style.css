@@ -1,0 +1,29 @@
+p, span {
+    border: 2px solid black;
+    margin: 0;
+}
+
+.elso {
+    padding-bottom: 20px;
+    padding-left: 5px;
+    background-color: aquamarine;
+    
+    margin: 20px 20px;
+}
+
+.masodik {
+    padding: 20px 10px 5px 0;
+    margin-top: 40px;
+}
+
+.harmadik {
+    margin: 0 20px;
+}
+
+.negyedik {
+    margin: 0 20px;
+}
+
+div span {
+    color: red;
+}
