@@ -1,0 +1,16 @@
+p {
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.message {
+    background-color: red;
+    width: 20%;
+    padding: 5px;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
