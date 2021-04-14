@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="https://knnorbi.ddns.net/test/post.php" method="post">
+        <div>
+            <label for="name">Név:</label>
+            <input type="text" id="name" maxlength="20" name="name" value="Minta Tamás">
+        </div>
+        <div>
+            Melyik gyümölcsöt szereted?<br>
+            <input type="checkbox" id="almaCB" name="alma"  value="szereti"><label for="almaCB">Alma</label><br>
+            <input type="checkbox" id="korteCB" checked name="korte" value="szereti"><label for="korteCB">Körte</label><br>
+            <input type="checkbox" id="bananCB" name="banan" value="szereti"><label for="bananCB">Banán</label>
+        </div>
+        <div>
+            Szereted-e málnát?<br>
+            <input type="radio" id="yesR" name="malna" checked value="yes"><label for="yesR">Igen</label><br>
+            <input type="radio" id="noR" name="malna" value="no"><label for="noR">Nem</label>
+        </div>
+        <div>
+            <label for="home">Lakhely:</label>
+            <select name="city" id="home">
+                <optgroup label="Budapest">
+                    <option value="pest">Pest</option>
+                    <option value="buda">Buda</option>
+                </optgroup>
+                <option value="megy">Megyeszékhely</option>
+                <option value="var">Város</option>
+                <option value="egy" selected>Egyéb</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
